@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AssetGrouping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AssetGrouping.swift */; };
+		A10000000000000000000002 /* AssetPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AssetPickerView.swift */; };
+		A10000000000000000000003 /* BackupDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* BackupDocument.swift */; };
+		A10000000000000000000004 /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* CompareView.swift */; };
+		A10000000000000000000005 /* DeletionQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* DeletionQueueView.swift */; };
+		A10000000000000000000006 /* GalleryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* GalleryFilter.swift */; };
+		A10000000000000000000007 /* LegacyMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* LegacyMigrator.swift */; };
+		A10000000000000000000008 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* LibraryView.swift */; };
+		A10000000000000000000009 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* PhotoGridView.swift */; };
+		A1000000000000000000000A /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* PhotoLibraryService.swift */; };
+		A1000000000000000000000B /* PhotoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* PhotoViewerView.swift */; };
+		A1000000000000000000000C /* PostEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* PostEditorView.swift */; };
+		A1000000000000000000000D /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* PostsView.swift */; };
+		A1000000000000000000000E /* ReviewSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* ReviewSetupView.swift */; };
+		A1000000000000000000000F /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* ReviewView.swift */; };
+		A10000000000000000000010 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* RootView.swift */; };
+		A10000000000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* SettingsView.swift */; };
+		A10000000000000000000012 /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* ThumbnailProvider.swift */; };
+		A10000000000000000000013 /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* UIComponents.swift */; };
+		A10000000000000000000014 /* UnpostedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* UnpostedApp.swift */; };
+		A10000000000000000000015 /* WorkflowModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* WorkflowModels.swift */; };
+		A10000000000000000000016 /* WorkflowStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* WorkflowStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AssetGrouping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetGrouping.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* AssetPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetPickerView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* BackupDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupDocument.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* DeletionQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletionQueueView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* GalleryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFilter.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* LegacyMigrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyMigrator.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* PhotoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* PostEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* ReviewSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSetupView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* UnpostedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpostedApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* WorkflowModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* WorkflowStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000FF01 /* Unposted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Unposted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Unposted */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Unposted */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* AssetGrouping.swift */,
+				A20000000000000000000002 /* AssetPickerView.swift */,
+				A20000000000000000000003 /* BackupDocument.swift */,
+				A20000000000000000000004 /* CompareView.swift */,
+				A20000000000000000000005 /* DeletionQueueView.swift */,
+				A20000000000000000000006 /* GalleryFilter.swift */,
+				A20000000000000000000007 /* LegacyMigrator.swift */,
+				A20000000000000000000008 /* LibraryView.swift */,
+				A20000000000000000000009 /* PhotoGridView.swift */,
+				A2000000000000000000000A /* PhotoLibraryService.swift */,
+				A2000000000000000000000B /* PhotoViewerView.swift */,
+				A2000000000000000000000C /* PostEditorView.swift */,
+				A2000000000000000000000D /* PostsView.swift */,
+				A2000000000000000000000E /* ReviewSetupView.swift */,
+				A2000000000000000000000F /* ReviewView.swift */,
+				A20000000000000000000010 /* RootView.swift */,
+				A20000000000000000000011 /* SettingsView.swift */,
+				A20000000000000000000012 /* ThumbnailProvider.swift */,
+				A20000000000000000000013 /* UIComponents.swift */,
+				A20000000000000000000014 /* UnpostedApp.swift */,
+				A20000000000000000000015 /* WorkflowModels.swift */,
+				A20000000000000000000016 /* WorkflowStore.swift */,
+			);
+			path = Unposted;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000FF01 /* Unposted.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* Unposted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000000000000000000002 /* Build configuration list for PBXNativeTarget "Unposted" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A80000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unposted;
+			productName = Unposted;
+			productReference = A2000000000000000000FF01 /* Unposted.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A60000000000000000000001 /* Build configuration list for PBXProject "Unposted" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* Unposted */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* AssetGrouping.swift in Sources */,
+				A10000000000000000000002 /* AssetPickerView.swift in Sources */,
+				A10000000000000000000003 /* BackupDocument.swift in Sources */,
+				A10000000000000000000004 /* CompareView.swift in Sources */,
+				A10000000000000000000005 /* DeletionQueueView.swift in Sources */,
+				A10000000000000000000006 /* GalleryFilter.swift in Sources */,
+				A10000000000000000000007 /* LegacyMigrator.swift in Sources */,
+				A10000000000000000000008 /* LibraryView.swift in Sources */,
+				A10000000000000000000009 /* PhotoGridView.swift in Sources */,
+				A1000000000000000000000A /* PhotoLibraryService.swift in Sources */,
+				A1000000000000000000000B /* PhotoViewerView.swift in Sources */,
+				A1000000000000000000000C /* PostEditorView.swift in Sources */,
+				A1000000000000000000000D /* PostsView.swift in Sources */,
+				A1000000000000000000000E /* ReviewSetupView.swift in Sources */,
+				A1000000000000000000000F /* ReviewView.swift in Sources */,
+				A10000000000000000000010 /* RootView.swift in Sources */,
+				A10000000000000000000011 /* SettingsView.swift in Sources */,
+				A10000000000000000000012 /* ThumbnailProvider.swift in Sources */,
+				A10000000000000000000013 /* UIComponents.swift in Sources */,
+				A10000000000000000000014 /* UnpostedApp.swift in Sources */,
+				A10000000000000000000015 /* WorkflowModels.swift in Sources */,
+				A10000000000000000000016 /* WorkflowStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJTWXNRQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Unposted;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Unposted can save a post's photos into an Apple Photos album so they are easy to pick, in order, when you publish.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Unposted shows your photo library so you can review shots, keep the ones worth posting, and track what you have published. Your photos stay in Apple Photos and are never uploaded.";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.Unposted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJTWXNRQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Unposted;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Unposted can save a post's photos into an Apple Photos album so they are easy to pick, in order, when you publish.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Unposted shows your photo library so you can review shots, keep the ones worth posting, and track what you have published. Your photos stay in Apple Photos and are never uploaded.";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.Unposted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000000000000000000001 /* Build configuration list for PBXProject "Unposted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000001 /* Debug */,
+				AA0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000000000000000000002 /* Build configuration list for PBXNativeTarget "Unposted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000003 /* Debug */,
+				AA0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}
